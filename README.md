@@ -1,24 +1,24 @@
 # Find-Similar-Images-using-autoencoder
 You are provided with a dataset of ~5k 512x512 images, your program should accept an 512x512 input image and return N images from the provided dataset similar to the input image.
 
-Training:
+## Training:
 ->Put the original Images in "dataset" folder
 ->remove all the images in "data" folder
 ->run python "image_retrieval.py"
 
 
-Test:
+## Test:
 ->put the test Images in "data/test"
 ->run "test.py"
 ->Give the number of sample required(N)
 ->The generated images will be saved in "data/generated" folder seperately
 
 
-Clustering:
+## Clustering:
 ->run "Clustering.py"  to see the elbow curve
 
 
-Brief Implementation:
+## Brief Implementation:
 
 ->The sizes of the images are large and processing large images is computationally expensive
             ->To tackle this two approaches can be tried
