@@ -2,9 +2,9 @@
 You are provided with a dataset of ~5k 512x512 images, your program should accept an 512x512 input image and return N images from the provided dataset similar to the input image.
 
 ## Training:
-->Put the original Images in "dataset" folder
-->remove all the images in "data" folder
-->run python "image_retrieval.py"
+->Put the original Images in "dataset" folder\
+->remove all the images in "data" folder\
+->run python "image_retrieval.py"\
 
 
 ## Test:
@@ -34,7 +34,7 @@ using distortion and inertia
 the test image in the respective cluster
 
 
-Requirements:
+## Requirements:
 Tensorflow
 sklearn
 PIL
@@ -42,7 +42,7 @@ numpy
 matplotlib
 
 
-References:
+## References:
 The basic code is inspired from https://github.com/ankonzoid/artificio
 
 
